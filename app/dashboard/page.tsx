@@ -46,7 +46,7 @@ export default function DashboardPage() {
         background: "#f5f7fb",
       }}
     >
-      <Typography variant="h4" fontWeight={700}>
+      <Typography component="h1" variant="h4" sx={{ fontWeight: 700 }}>
         Dashboard
       </Typography>
 
