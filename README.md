@@ -43,10 +43,39 @@ Durante o desenvolvimento, procurei simular um cenário real de projeto, prioriz
 
 ## 📁 Estrutura do projeto
 
+## 📁 Estrutura do projeto
+
 ```bash
 src/
 ├── app/
+│   ├── cadastro/
+│   │   └── page.tsx
+│   ├── dashboard/
+│   │   └── page.tsx
+│   ├── login/
+│   │   └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
 ├── components/
+│   ├── AuthCard.tsx
+│   ├── CustomButton.tsx
+│   ├── CustomInput.tsx
+│   └── UserCard.tsx
 ├── services/
-├── types/
-└── styles/
+│   └── randomUserApi.ts
+└── types/
+    └── user.ts
+
+
+## 📁 Organização
+
+- `app/`: rotas da aplicação utilizando App Router do Next.js
+- `app/login`: página de login
+- `app/cadastro`: página de cadastro de usuário
+- `app/dashboard`: página principal após autenticação
+- `components/`: componentes reutilizáveis da interface
+- `services/`: camada responsável por chamadas externas/API
+- `types/`: tipagens globais utilizadas no projeto
+```
