@@ -43,8 +43,6 @@ Durante o desenvolvimento, procurei simular um cenário real de projeto, prioriz
 
 ## 📁 Estrutura do projeto
 
-## 📁 Estrutura do projeto
-
 ```bash
 src/
 ├── app/
@@ -79,3 +77,5 @@ src/
 - `services/`: camada responsável por chamadas externas/API
 - `types/`: tipagens globais utilizadas no projeto
 ```
+
+##  Deploy: https://viveo-front-test-vr6w.vercel.app/login
